@@ -1,0 +1,230 @@
+.tf-btn.hover-white {
+  &::before {
+    display: none;
+  }
+}
+.rc-slider .rc-slider-handle {
+  border: solid 2px var(--on-suface-container);
+  opacity: 1 !important;
+  background-color: #fff !important;
+  width: 24px;
+  height: 24px;
+  margin-top: -11px;
+}
+
+.rc-slider .rc-slider-handle:hover {
+  border-color: var(--on-suface-container);
+}
+
+.rc-slider .rc-slider-handle-dragging {
+  border-color: var(--on-suface-container) !important;
+  box-shadow: none !important;
+}
+
+.rc-slider .rc-slider-track,
+.rc-slider .rc-slider-tracks {
+  background-color: var(--on-suface-container);
+}
+@media only screen and (max-width: 550px) {
+  .footer .footer-col-block .tf-collapse-content {
+    overflow-y: hidden;
+    display: block;
+    height: 0;
+    transition: 0.5s;
+  }
+}
+.tfSubscribeMsg {
+  display: none;
+  max-height: 0px;
+  // transition: 0.4s;
+  overflow: hidden;
+  &.active {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-height: 180px;
+    display: block;
+  }
+}
+
+.awards-list {
+  .image {
+    overflow: visible;
+  }
+}
+// .rtl {
+//   .tf-btn-newsletter i {
+//     transform: rotate(-90deg);
+//     transform-origin: center center;
+//   }
+// }
+.overflow-clip {
+  max-width: 100vw;
+  overflow: clip;
+}
+.flex-1 {
+  flex: 1;
+  padding-left: 10%;
+  min-width: 10px;
+}
+
+.border-bottom-none {
+  border-bottom: none;
+}
+.sidebar-categories {
+  .item {
+    &.active {
+      color: var(--primary) !important;
+      a {
+        color: var(--primary) !important;
+      }
+    }
+  }
+}
+.typeanimation {
+  transition: width 0.58s ease-out !important;
+  height: 100% !important;
+  //   margin-top: -10px;
+  padding-right: 10px;
+  b.is-visible {
+    padding-right: 10px !important;
+  }
+}
+
+#toggle-rtl span:last-child {
+  display: none;
+}
+
+.rtl #toggle-rtl,
+.style-RTL #toggle-rtl {
+  left: 15px;
+  right: auto;
+}
+
+.rtl #toggle-rtl span:first-child,
+.style-RTL #toggle-rtl span:first-child {
+  display: none;
+}
+
+.rtl #toggle-rtl span:last-child,
+.style-RTL #toggle-rtl span:last-child {
+  display: block;
+}
+.tf-btn-arrow {
+  cursor: pointer;
+}
+.gx-4 {
+  column-gap: 16px;
+}
+.rtl .rtl-text-start .text,
+.rtl .rtl-text-start-2 {
+  text-align: start !important;
+  direction: rtl !important;
+}
+
+.rtl .rtl-text-start-3 {
+  text-align: end !important;
+}
+.rtl .rtl-text-start-4 {
+  text-align: start !important;
+}
+@media (max-width: 1350px) {
+  .rtl .section-about.h-2 .about-content .wg-counter.style-column {
+    justify-content: right;
+  }
+}
+.stratagy-pricing {
+  @media (max-width: 1050px) {
+    font-size: 34px;
+  }
+}
+.rtl .stratagy-box-icon-list {
+  .box-icon {
+    &:first-child {
+      border-right: none;
+      margin-right: 0px !important;
+    }
+    &:last-child {
+      border-left: 1px solid var(--outline) !important;
+      border-right: 1px solid var(--outline) !important;
+      margin-left: 30px !important;
+    }
+  }
+}
+.typing-title-container {
+  @media (max-width: 550px) {
+    font-size: 35px !important;
+    line-height: 35px !important;
+  }
+  @media (max-width: 400px) {
+    font-size: 28px !important;
+    line-height: 32px !important;
+  }
+}
+
+.rtl .box-agent .list-img {
+  direction: ltr !important;
+}
+// .rtl .nice-select::before,
+// .style-RTL .nice-select::before {
+//   right: -20px;
+//   left: auto;
+// }
+.insurance-counter {
+  column-gap: 8px;
+  @media (max-width: 1460px) and (min-width: 1400px) {
+    .number.odometer {
+      font-size: 35px;
+    }
+  }
+}
+.section-testimonials.h-7 {
+  .testimonial-content {
+    @media (max-width: 550px) {
+      height: auto;
+    }
+  }
+}
+.section-new.h-7 {
+  @media (max-width: 550px) {
+    .top-post {
+      width: 100%;
+    }
+  }
+}
+.section-why-choose.h-8 {
+  @media (max-width: 1150px) {
+    padding-bottom: 100px !important;
+  }
+  @media (max-width: 991px) {
+    padding-bottom: 60px !important;
+  }
+}
+.rtl {
+  .next.pre-next-blog-item {
+    text-align: left;
+  }
+  .testimonial-item .text {
+    text-align: right;
+  }
+}
+body.rtl .swiper-ltr-layout .swiper-slide {
+  direction: rtl !important;
+}
+body.rtl .wg-team-details .image {
+  flex: 1;
+}
+.rtl .newsletter-form .tf-btn-newsletter {
+  left: 8px;
+  right: auto;
+}
+.rtl .newsletter-form .tf-btn-newsletter i {
+  transform: rotateY(180deg);
+}
+.rtl .blog-right-sidebar-content .date {
+  left: unset;
+  right: 20px;
+}
+.rtl .blog-no-sidebar-slide .date {
+  left: unset !important;
+  right: 20px;
+}
